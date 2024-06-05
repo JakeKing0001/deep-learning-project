@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /app
+
+logging:
+  level:
+    org.springframework: INFO
+  file:
+    name: app.log
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: secret
+
+  thymeleaf:
+    cache: false

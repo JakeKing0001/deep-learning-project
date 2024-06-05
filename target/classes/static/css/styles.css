@@ -1,0 +1,112 @@
+body {
+    font-size: 20px; /* Aumenta la dimensione del font */
+    margin: 0;
+    border: 1px solid black;
+    height: 600px;
+    width: 785px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 600px;
+    background-image: url('images/chess.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: -1; /* Posiziona l'immagine di sfondo dietro il contenuto */
+    filter: blur(5px);
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Posiziona il contenuto sopra l'immagine di sfondo */
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px; /* Aggiungi margine inferiore */
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 4em; /* Aumenta la dimensione del testo */
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 3em; /* Aumenta la dimensione del testo */
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumenta la distanza tra i bottoni */
+}
+
+button {
+  border-radius: 10px;
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+/* CSS */
+#fake-play-button {
+  align-items: center;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 300ms;
+}
+
+#fake-exit-button {
+  align-items: center;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 300ms;
+}
+
+.hover {
+  background-color: none;
+  background-color: black;
+  /* color: whitesmoke; */
+  -webkit-text-fill-color: whitesmoke;
+}

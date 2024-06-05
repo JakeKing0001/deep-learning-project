@@ -1,0 +1,11 @@
+com\example\Application.class
+com\example\Gui.class
+com\example\Piece.class
+com\example\App.class
+com\example\ChessBoard$1.class
+com\example\HomeController.class
+com\example\Cell.class
+com\example\ChessAI.class
+com\example\WebPageViewer.class
+com\example\Minimax.class
+com\example\ChessBoard.class
